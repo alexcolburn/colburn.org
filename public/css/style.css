@@ -1,0 +1,135 @@
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #555;
+  --accent: #205e9e;
+  --rule: #e3e3e3;
+  --card: #fafafa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14161a;
+    --text: #e8e8e8;
+    --muted: #a0a0a0;
+    --accent: #7db3e8;
+    --rule: #2c3138;
+    --card: #1b1e24;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+header, main, footer {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+header {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2.2rem;
+  letter-spacing: -0.02em;
+}
+
+nav a {
+  margin-right: 1.25rem;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+nav a:hover { color: var(--accent); }
+
+a { color: var(--accent); }
+
+h2 {
+  font-size: 1.5rem;
+  margin: 3rem 0 1.25rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.pub {
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+}
+
+.pub img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.pub h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.pub .authors {
+  margin: 0 0 0.15rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.pub .venue {
+  margin: 0 0 0.35rem;
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.pub .links { margin: 0 0 0.5rem; }
+
+.pub .links a {
+  margin-right: 0.9rem;
+  font-size: 0.9rem;
+  text-transform: lowercase;
+}
+
+.pub .abstract {
+  margin: 0;
+  font-size: 0.97rem;
+}
+
+#contact p { font-size: 1.05rem; }
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  header { padding-top: 2rem; }
+  header h1 { font-size: 1.8rem; }
+  body { font-size: 1rem; }
+}

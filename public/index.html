@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Colburn</title>
+  <meta name="description" content="Alex Colburn — Research Scientist. Deep learning, computer graphics, and computer vision.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Alex Colburn</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="about">
+  <p>
+    I am a Research Scientist at Apple
+    <a href="https://machinelearning.apple.com/">AI/ML</a>. I am also an
+    affiliate associate professor of
+    <a href="https://www.cs.washington.edu/">Computer Science and Engineering</a>
+    at the <a href="https://www.washington.edu/">University of Washington</a>.
+    My research combines deep learning, computer graphics, and computer vision
+    to create usable systems that allow people to better capture, understand,
+    edit, and visualize the world.
+  </p>
+  <p>
+    I collaborate with the University of Washington
+    <a href="https://grail.cs.washington.edu/">Graphics and Imaging Laboratory</a>,
+    <a href="https://realitylab.uw.edu/">Reality Lab</a>, and
+    <a href="http://arl.cs.washington.edu/ferg/">Facial Expression Research Group</a>,
+    where we combine artistic insight and deep learning techniques to better
+    understand facial expressions and create amazing tools for artists.
+  </p>
+  <p>
+    Previously, I was a Research Scientist at Zillow where I helped create the
+    state of the art in home interior capture and visualization. As a researcher
+    at Amazon, I focused on 3D object creation from photos.
+  </p>
+  <p>
+    My Ph.D. work focused on interactive image-based modeling systems for
+    architectural structures. I spent 10 years at Microsoft Research working on
+    a variety of projects ranging from creating a platform for building virtual
+    worlds to implementing microphone arrays.
+  </p>
+</section>
+
+<section id="research">
+  <h2>Research</h2>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>Generative Multiplane Images (GMPI)</h3>
+      <p class="authors">Xiaoming Zhao, Fangchang Ma, David Güera Cobo, Zhile Ren, Alexander G. Schwing, Alex Colburn</p>
+      <p class="venue">ECCV 2022 (oral)</p>
+      <p class="links">
+        <a href="https://xiaoming-zhao.github.io/projects/gmpi/">project</a>
+        <a href="https://github.com/apple/ml-gmpi">code</a>
+        <a href="https://arxiv.org/abs/2207.10642">arXiv</a>
+      </p>
+      <p class="abstract">
+        “What is really needed to make an existing 2D GAN 3D-aware?” To answer
+        this question, we modify a classical GAN, i.e., StyleGANv2, as little as
+        possible. We find that only two modifications are absolutely necessary:
+        a multiplane image style generator branch which produces a set of alpha
+        maps conditioned on their depth, and a pose-conditioned discriminator.
+      </p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>Fast and Explicit Neural View Synthesis</h3>
+      <p class="authors">Pengsheng Guo, Miguel Angel Bautista, Alex Colburn, Liang Yang, Daniel Ulbricht, Joshua M. Susskind, Qi Shan</p>
+      <p class="venue">WACV 2022</p>
+      <p class="links"><a href="https://arxiv.org/pdf/2107.05775.pdf">paper</a></p>
+      <p class="abstract">
+        We study the problem of novel view synthesis from sparse source
+        observations of a scene comprised of 3D objects. We propose a simple yet
+        effective approach that is neither continuous nor implicit, challenging
+        recent trends on view synthesis.
+      </p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img src="images/luminance-jbps2020.jpg" alt="Sensitivity experiment results for annual luminance simulations across sky types" loading="lazy">
+    <div class="pub-body">
+      <h3>Deep Neural Network Approach for Annual Luminance Simulations</h3>
+      <p class="authors">Yue Liu, Alex Colburn, Mehlika Inanici</p>
+      <p class="venue">Journal of Building Performance Simulation 13(5), August 2020</p>
+      <p class="links"><a href="https://www.tandfonline.com/doi/full/10.1080/19401493.2020.1803404">paper</a></p>
+      <p class="abstract">
+        Annual luminance maps provide meaningful evaluations for occupants’
+        visual comfort and perception. This paper presents a novel data-driven
+        approach for predicting annual luminance maps from a limited number of
+        point-in-time high-dynamic-range imagery by utilizing a deep neural
+        network.
+      </p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img src="images/enr-icml2020.gif" alt="Equivariant neural rendering results on cups, chairs, cars, and mountains" loading="lazy">
+    <div class="pub-body">
+      <h3>Equivariant Neural Rendering</h3>
+      <p class="authors">Emilien Dupont, Miguel Angel Bautista, Alex Colburn, Aditya Sankar, Carlos Guestrin, Josh Susskind, Qi Shan</p>
+      <p class="venue">ICML 2020</p>
+      <p class="links"><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/2167-Paper.pdf">paper</a></p>
+      <p class="abstract">
+        We propose a framework for learning neural scene representations
+        directly from images, without 3D supervision. Our key insight is that 3D
+        structure can be imposed by ensuring that the learned representation
+        transforms like a real 3D scene.
+      </p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img src="images/manhattan-layout.jpg" alt="3D Manhattan room layouts reconstructed from single panoramic images" loading="lazy">
+    <div class="pub-body">
+      <h3>3D Manhattan Room Layout Reconstruction from a Single 360 Image</h3>
+      <p class="authors">Chuhang Zou, Jheng-Wei Su, Chi-Han Peng, Alex Colburn, Qi Shan, Peter Wonka, Hung-Kuo Chu, Derek Hoiem</p>
+      <p class="links"><a href="https://arxiv.org/abs/1910.04099">arXiv</a></p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img src="images/panoramic-luminance-bs2019.png" alt="Predicted equirectangular panoramic luminance maps compared with ground truth" loading="lazy">
+    <div class="pub-body">
+      <h3>Predicting Annual Equirectangular Panoramic Luminance Maps Using Deep Neural Networks</h3>
+      <p class="authors">Yue Liu, Alex Colburn, Mehlika Inanici</p>
+      <p class="venue">16th IBPSA International Conference and Exhibition, Building Simulation 2019</p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img src="images/daylighting-simbuild2018.jpg" alt="Deep neural network pipeline for long-term daylighting simulation" loading="lazy">
+    <div class="pub-body">
+      <h3>Computing Long-term Daylighting Simulations from High Dynamic Range Imagery Using Deep Neural Networks</h3>
+      <p class="authors">Yue Liu, Alex Colburn, Mehlika Inanici</p>
+      <p class="venue">Building Performance Analysis Conference and SimBuild 2018</p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img src="images/layoutnet-cvpr2018.jpg" alt="LayoutNet reconstructing 3D room layout from a panorama" loading="lazy">
+    <div class="pub-body">
+      <h3>LayoutNet: Reconstructing the 3D Room Layout from a Single RGB Image</h3>
+      <p class="authors">Chuhang Zou, Alex Colburn, Qi Shan, Derek Hoiem</p>
+      <p class="venue">CVPR 2018</p>
+      <p class="links">
+        <a href="https://arxiv.org/abs/1803.08999">pre-print</a>
+        <a href="https://github.com/zouchuhang/LayoutNet">code</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img src="images/expressions-wacv2018.jpg" alt="Human expression sequences transferred to stylized characters Mery and Ray" loading="lazy">
+    <div class="pub-body">
+      <h3>Learning to Generate 3D Stylized Character Expressions from Humans</h3>
+      <p class="authors">Deepali Aneja, Bindita Chaudhuri, Alex Colburn, Gary Faigin, Linda G. Shapiro, Barbara Mones</p>
+      <p class="venue">WACV 2018</p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img src="images/radiance-2017.png" alt="Monthly sun-path coverage diagrams for daylighting data collection" loading="lazy">
+    <div class="pub-body">
+      <h3>Computing Long-term Daylighting Simulations from High Dynamic Range Photographs Using Deep Neural Networks</h3>
+      <p class="authors">Yue Liu, Mehlika Inanici, Alex Colburn</p>
+      <p class="venue">Radiance Workshop 2017, Portland OR</p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img src="images/deepexpr-accv2016.png" alt="DeepExpr transferring human expressions to stylized characters" loading="lazy">
+    <div class="pub-body">
+      <h3>Modeling Stylized Character Expressions via Deep Learning</h3>
+      <p class="authors">Deepali Aneja, Alex Colburn, Gary Faigin, Linda Shapiro, Barbara Mones</p>
+      <p class="venue">ACCV 2016, Springer Lecture Notes in Computer Science (oral presentation)</p>
+      <p class="links"><a href="https://grail.cs.washington.edu/projects/deepexpr/">project</a></p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>Image-Based Remodeling</h3>
+      <p class="authors">Alex Colburn, Aseem Agarwala, Aaron Hertzmann, Brian Curless, Michael F. Cohen</p>
+      <p class="venue">IEEE Transactions on Visualization and Computer Graphics</p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>A Viewer-Centric Editor for 3D Movies</h3>
+      <p class="authors">Sanjeev J. Koppal, C. Lawrence Zitnick, Michael Cohen, Sing Bing Kang, Bryan Ressler, Alex Colburn</p>
+      <p class="venue">IEEE Computer Graphics and Applications 31(1), pp. 20–35, Jan–Feb 2011</p>
+      <p class="links"><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5432118">paper</a></p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>Parallax Photography: Creating 3D Cinematic Effects from Stills</h3>
+      <p class="authors">Ke Colin Zheng, Alex Colburn, Aseem Agarwala, Maneesh Agrawala, Brian Curless, David Salesin, Michael Cohen</p>
+      <p class="venue">Graphics Interface, May 2009 (awarded Best Student Paper)</p>
+      <p class="links"><a href="http://cs.washington.edu/homes/alexco/ParallaxPhoto_GI2009_pre_print.pdf">pre-print</a></p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>Interactive Video Cutout</h3>
+      <p class="authors">Jue Wang, Pravin Bhat, R. Alex Colburn, Maneesh Agrawala, Michael F. Cohen</p>
+      <p class="venue">ACM Transactions on Graphics (Proceedings of SIGGRAPH 2005), July 2005</p>
+      <p class="links"><a href="http://www.juew.org/projects/VideoCutout/VideoCutout.htm">project</a></p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>Interactive Digital Photomontage</h3>
+      <p class="authors">Aseem Agarwala, Mira Dontcheva, Maneesh Agrawala, Steven Drucker, Alex Colburn, Brian Curless, David Salesin, Michael Cohen</p>
+      <p class="venue">SIGGRAPH 2004, August 2004</p>
+      <p class="links"><a href="https://grail.cs.washington.edu/projects/photomontage/">project</a></p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>Image Stacks</h3>
+      <p class="authors">Michael F. Cohen, Alex Colburn, Steven Drucker</p>
+      <p class="venue">Microsoft Research Tech Report MSR-TR-2003-40, July 2003</p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>Distributed Meetings: A Meeting Capture and Broadcast System</h3>
+      <p class="authors">Ross Cutler, Yong Rui, Anoop Gupta, JJ Cadiz, Ivan Tashev, Li-wei He, Alex Colburn, Zhengyou Zhang, Zicheng Liu, Steve Silverberg</p>
+      <p class="venue">Proceedings of the 2002 ACM International Conference on Multimedia</p>
+      <p class="links"><a href="http://www.research.microsoft.com/~rcutler/pub/dm_mm02.pdf">paper</a></p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>Video Cubism</h3>
+      <p class="authors">Allison W. Klein, Peter-Pike J. Sloan, Alex Colburn, Adam Finkelstein, Michael F. Cohen</p>
+      <p class="venue">Microsoft Research Tech Report MSR-TR-2001-45, April 2001</p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>Graphical Enhancements for Voice Only Conference Calls</h3>
+      <p class="authors">R. Alex Colburn, Michael F. Cohen, Steven M. Drucker, Anoop Gupta, Scott LeeTiernan</p>
+      <p class="venue">Microsoft Research Tech Report MSR-TR-2001-95, October 2001</p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>The Role of Eye Gaze in Avatar Mediated Conversational Interfaces</h3>
+      <p class="authors">R. Alex Colburn, Michael F. Cohen, Steven M. Drucker</p>
+      <p class="venue">ACM SIGGRAPH Sketches and Applications, 2000; Microsoft Research Tech Report MSR-TR-2000-81, July 2000</p>
+    </div>
+  </article>
+
+</section>
+
+<section id="teaching">
+  <h2>Teaching &amp; Other</h2>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>CSE 464B — Research Topics in Computer Animation</h3>
+      <p class="abstract">
+        Introduces basic foundations of research in science and technology.
+        Builds research skills by reading and evaluating papers along with
+        designing and implementing research projects related to Animation,
+        Graphics, and Machine Learning.
+      </p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <div class="pub-body">
+      <h3>CSE 590M — Computer Music &amp; Audio</h3>
+      <p class="abstract">
+        I ran a music seminar in grad school — Computers &amp; Music.
+        <a href="http://courses.cs.washington.edu/courses/cse590m/">Course page</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img src="images/cse-band.jpg" alt="UW CSE Band logo" loading="lazy">
+    <div class="pub-body">
+      <h3>UW CSE Band — AKA the Parody Bits</h3>
+      <p class="abstract">The UW CSE Band.</p>
+    </div>
+  </article>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    alex{at}colburn{dot}org<br>
+    alexco{at}cs{dot}washington{dot}edu
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2016–2026 Alex Colburn</p>
+</footer>
+
+</body>
+</html>
