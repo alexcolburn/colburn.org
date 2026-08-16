@@ -1,4 +1,5 @@
 :root {
+  color-scheme: light;
   --bg: #f7f8fa;
   --surface: #ffffff;
   --text: #1c2128;
@@ -17,29 +18,6 @@
   --chip-bld-bg: #e5f5e0;   --chip-bld-fg: #3f6212;
   --chip-tr-bg: #eceff3;    --chip-tr-fg: #57606a;
   --chip-award-bg: #fff3d6; --chip-award-fg: #92610a;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0e1116;
-    --surface: #161b22;
-    --text: #e6e9ed;
-    --muted: #a3adb8;
-    --faint: #768390;
-    --accent: #6ea8fe;
-    --accent-soft: #1a2540;
-    --rule: #262d36;
-    --shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-    --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.55);
-    --hero-grad: linear-gradient(135deg, #131a28 0%, #0e1116 55%, #10201b 100%);
-    --thumb-bg: #1d232c;
-    --chip-cv-bg: #1a2c50;    --chip-cv-fg: #8fb3ff;
-    --chip-ml-bg: #2a2050;    --chip-ml-fg: #c4a8ff;
-    --chip-gfx-bg: #0f2f2b;   --chip-gfx-fg: #6fd4c5;
-    --chip-bld-bg: #1c2e14;   --chip-bld-fg: #a3d977;
-    --chip-tr-bg: #232a33;    --chip-tr-fg: #a3adb8;
-    --chip-award-bg: #3a2c0a; --chip-award-fg: #f2c353;
-  }
 }
 
 * { box-sizing: border-box; }
